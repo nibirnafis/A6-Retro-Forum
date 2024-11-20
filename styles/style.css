@@ -1,0 +1,35 @@
+
+/* ---------------------Fonts------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.font-mulish{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.font-inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* ---------------------------------------------------- */
+
+
+.primary-color{
+    background-color: #797DFC;
+}
+
+.primary-color1{
+    background-color: #797DFC1A;
+}
+
+
+.primary-color2{
+    background-color: #12132D0D;
+}
+
+
+.section-width{
+    width: 1170px;
+}
