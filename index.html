@@ -89,9 +89,9 @@
                                     <img src="Assets/clock_icon.png" alt="">
                                     <p class="mx-[25px]">5 min</p>
                                 </div>
-                                <div onclick="markedAsRead()">
+                                <button>
                                     <img src="Assets/marked-read-icon.png" alt="">
-                                </div>
+                                </button>
                             </div>
                         </div>
                     </div> -->
@@ -103,11 +103,11 @@
                             <p class="font-mulish font-bold text-[20px]">Title</p>
                             <div class="flex">
                                 <div><img src="Assets/tic.png" alt=""></div>
-                                <p class="font-inter font-normal text-[16px]">Mark as read (0)</p>
+                                <p class="font-inter font-normal text-[16px]">Mark as read (<span id="counter">0</span>)</p>
                             </div>
                         </div>
                         <!-- created element -->
-                        <!-- <div class="flex justify-between items-center p-[16px] bg-white rounded-[16px] mb-[16px]">
+                        <!-- <div class="flex justify-between items-center p-[16px] bg-white rounded-[16px] mb-[16px] w-[374px]">
                             <p class="font-mulish font-semibold text-[16px]">10 Kids Unaware of Their Halloween Costume</p>
                             <div class="flex justify-center items-center">
                                 <img src="Assets/eye_icon.png" alt="">
@@ -138,10 +138,31 @@
                 <p class="font-mulish font-black text-[40px]">Latest Posts</p>
                 <p class="font-inter font-normal text-[18px]">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
             </div>
-            <div class="flex mt-12">
-                <div></div>
-                <div></div>
-                <div></div>
+
+            <div id="latest-posts-container" class="flex justify-between mt-12">
+                <!-- created element -->
+                <!-- <div class="w-[350px] p-[24px] border-2 rounded-[24px]">
+                    <div class="mb-[24px]">
+                        <img class="w-[326px] h-[190px] rounded-[20px]" src="https://i.ibb.co/VYGSkLz/pexels-jeshootscom-442576.jpg" alt="">
+                    </div>
+                    <div class="flex mb-[12px]">
+                        <div>
+                            <img src="Assets/calender_icon.png" alt="">
+                        </div>
+                        <p class="font-mulish font-normal text-[16px]">29 January 2024</p>
+                    </div>
+                    <p class="font-mulish font-extrabold text-[18px] mb-[12px]">What will a mars habitat force that impact in our daily life!!!</p>
+                    <p class="font-mulish font-normal text-[16px] mb-[16px]">Yes, you can run unit tests and view the results directly within the app.</p>
+                    <div class="flex">
+                        <div class="mr-[16px]">
+                            <img  class="w-[44px] h-[44px] rounded-[22px]" src="https://i.ibb.co/z8zx95w/pexels-davide-de-giovanni-1649675.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="font-mulish font-bold text-[16px]">Cameron Williamson</p>
+                            <p class="font-mulish font-normal text-[14px]">Unknown</p>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </section>
     </main>
