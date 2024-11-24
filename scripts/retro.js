@@ -134,7 +134,7 @@ const displayPosts = (posts) => {
             <p class="font-mulish font-normal text-[16px] mb-[16px]">${post.description}</p>
             <div class="flex">
                 <div class="mr-[16px]">
-                    <img  class="w-[44px] h-[44px] rounded-[22px]" src="https://i.ibb.co/z8zx95w/pexels-davide-de-giovanni-1649675.jpg" alt="">
+                    <img  class="w-[44px] h-[44px] rounded-[22px]" src="${post.profile_image}" alt="">
                 </div>
                 <div>
                     <p class="font-mulish font-bold text-[16px]">${post.author.name}</p>
